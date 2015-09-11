@@ -3,5 +3,5 @@ from django.conf.urls import patterns, url
 from polls import views
 
 urlpatterns = patterns('',
-  url(r'^$', views.hello, name="index")
+  url(r'^$', views.home, name="index")
 )
