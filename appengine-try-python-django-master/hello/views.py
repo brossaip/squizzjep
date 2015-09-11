@@ -1,4 +1,5 @@
-from django import http
+#from django import http
+import django
 
 def home(request):
-    return http.HttpResponse('Hello World!')
+    return django.http.HttpResponse('Hello JBD! Django version:' + django.get_version())
